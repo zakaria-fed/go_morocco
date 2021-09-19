@@ -1,0 +1,18 @@
+.nav-link {
+    transition: .5s ease-in-out;
+    color: #fff !important;
+    text-align: center;
+    border-bottom: 0;
+}
+
+.nav-link:hover {
+    color: rgb(207, 207, 207) !important;
+    border-bottom: 1px dashed #fff;
+    transition: .5s ease-in-out;
+    transform: scale(.9);
+}
+
+.lang {
+    padding-top: .5rem;
+    font-size: 2rem;
+}

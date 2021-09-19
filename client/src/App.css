@@ -1,0 +1,13 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+.header__wrapper {
+    background-color: rgb(212, 212, 212);
+    height: 30rem;
+}
