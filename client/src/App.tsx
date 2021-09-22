@@ -1,8 +1,12 @@
+import "./App.css"
 import { Container } from "react-bootstrap"
+
+// Components
 import LittleNavBar from "./components/LittleNavBar/LittleNavBar"
 import NavBar from "./components/NavBar/NavBar"
-
-import "./App.css"
+import FirstSection from "./components/FirstSection/FirstSection"
+import SecondSection from "./components/SecondSection/SecondSection"
+import Footer from "./components/Footer/Footer"
 
 const App = () => {
     return (
@@ -14,9 +18,13 @@ const App = () => {
             </div>
 
             {/* Content of Main */}
-            <Container className="main">
+            <div className="main">
+                <FirstSection />
+                <SecondSection />
+            </div>
 
-            </Container>
+            {/* Footer */}
+            <Footer />
         </div>
     )
 }

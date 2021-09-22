@@ -1,0 +1,39 @@
+.second__section {
+    height: 50rem;
+    background-color: #DEDEDE;
+    text-align: center;
+    text-align: -webkit-center;
+}
+
+    /* Content */
+    .second__section__txt {
+        align-self: center;
+    }
+
+    .second__section__txt > h2 {
+        text-align: start;
+    }
+
+    .second__section__txt > p {
+        margin-top: 2rem;
+        padding-right: 1rem;
+        text-align: end;
+        max-width: 23rem;
+    }
+
+    /* Image */
+    .second__section__img__wrapper {
+        position: relative;
+        height: 50rem;
+    }
+
+    .second__section__img {
+        position: absolute;
+        top: 2%;
+        right: 0;
+        left: 0;
+        bottom: 2%;
+        background-color: #ABABAB;
+        max-width: 40rem;
+        height: 90% !important;
+    } 

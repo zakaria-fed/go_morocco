@@ -4,6 +4,7 @@ import "./LittleNavBar.css"
 import { IoIosMail, IoLogoFacebook } from "react-icons/io"
 import { AiFillInstagram } from "react-icons/ai"
 import { FaLinkedinIn } from "react-icons/fa"
+import { FiPhoneCall } from "react-icons/fi"
 
 const LittleNavBar = () => {
     return (
@@ -11,15 +12,31 @@ const LittleNavBar = () => {
             <Container>
                 <Navbar.Text>
                     <a href="mailto:go.media.slj@gmail.com">
-                        <Row className="coordinate__wrapper">
-                            <Col xs={2} md={2} lg={2}>
-                                <IoIosMail color="black" />
+                        <Row className="coordinate__wrapper justify-content-center">
+                            {/* Email */}
+                            <Col className="coordinate">
+                                <Col xs={2} md={2} lg={2}>
+                                    <IoIosMail color="black" />
+                                </Col>
+                                <Col xs={10} md={10} lg={10}>
+                                    <span className="littlenav__text">
+                                        Send an Email
+                                    </span>
+                                </Col>
                             </Col>
-                            <Col xs={10} md={10} lg={10}>
-                                <span className="littlenav__text">
-                                    Send an Email
-                                </span>
+
+                            <Col className="coordinate">
+                                {/* Call */}
+                                <Col xs={2} md={2} lg={2}>
+                                    <FiPhoneCall color="black" />
+                                </Col>
+                                <Col xs={10} md={10} lg={10}>
+                                    <span className="littlenav__text">
+                                        Make a Call
+                                    </span>
+                                </Col>
                             </Col>
+
                         </Row>
                     </a>
                 </Navbar.Text>

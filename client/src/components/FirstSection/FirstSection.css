@@ -1,0 +1,67 @@
+/* Titles */
+    .first__section > h1, .first__section > h3 {
+        margin: 4rem auto; 
+        text-align: center;
+    }
+
+    .first__section > h1 {
+        font-weight: 100;
+        font-size: 2.0rem;
+        max-width: 906px;
+    }
+
+    .first__section > h1::before {
+        content: "📌";
+    }
+
+    .first__section > h1::first-line {
+        font-weight: 500;
+        font-size: 3rem;
+    }
+
+    .first__section > h3 {
+        font-weight: 400;        
+    }
+
+/* Approach */
+    .approach__img__wrapper {
+        position: relative;
+    }
+
+    .approach__img {
+        margin-left: auto;
+        margin-right: auto;
+
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+
+        background-color: #DEDEDE;
+        background-image: url("");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        max-width: 20rem;
+        height: 100%;
+
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .approach__txt {
+        padding-bottom: 4rem;
+    }
+
+    .approach__txt > h4 {
+        font-size: 2rem;
+        font-weight: 400;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-bottom: 1.2rem;
+    }
+
+    .approach__txt > p {
+        font-family: "Samsung Sans";
+        margin-bottom: 1.2rem;
+    }

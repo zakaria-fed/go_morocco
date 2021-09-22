@@ -4,8 +4,8 @@
 }
 
 .coordinate__wrapper {
-    width: 9rem;
-    padding: .4rem;
+    width: 15rem;
+    /* padding: .4rem; */
 
     transition: .4s ease-in;
 }
@@ -24,6 +24,11 @@
 
 .coordinate__wrapper:hover svg {
     color: #fff !important;
+}
+
+.coordinate {
+    text-align: center;
+    text-align: -webkit-center;
 }
 
 .littlenav__text {
